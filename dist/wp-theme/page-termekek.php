@@ -19,7 +19,7 @@ get_header();
                 'category', array(
                     'parent' => 0,
                     'hide_empty' => false,
-                    'exclude' => 4
+                    'exclude' => array(5, 1)
                 )
             );
             $count = count($categories);
