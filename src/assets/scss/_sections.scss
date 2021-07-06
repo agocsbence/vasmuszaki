@@ -1,0 +1,107 @@
+.section-hero, .section-tech-hero, .section-tech-icon-cards, .section-about-hero {padding-top: 0;}
+.section-hero {
+    .grid {
+        grid-template-areas: "text-block image-block";
+        @media screen and (max-width: $mobile) {
+            grid-template-areas:
+                "image-block"
+                "text-block";
+        }
+    }
+}
+.section-properties-grid {
+    grid-template-areas: "image-block text-block" !important;
+    @media screen and (max-width: $mobile) {
+        grid-template-areas:
+            "image-block"
+            "text-block";
+    }
+}
+.section-icons {
+    padding: 5rem 0;
+    @media screen and (max-width: $mobile) {
+        padding: 1rem 0;
+    }
+    .text-block {
+        display: flex;
+        flex-direction: column;
+        .btn-green {
+            margin: 3rem 11rem 0;
+            @media screen and (max-width: $tablet) {
+                margin: 0;
+            }
+        }
+    }
+}
+.section-faq {
+    padding-top: 0;
+    .accordions-wrapper {margin-top: 4rem;}
+}
+.section-contact {
+    .container-fluid {margin-top: 4rem;}
+}
+.section-tech-icon-cards {
+    .grid {grid-gap: 2rem;}
+}
+.section-tech-details {
+    .grid-2-3 {margin-top: 5rem;}
+    .tech-details {
+        padding: 20px;
+        font-size: 1rem;
+        font-weight: 500;
+        .detail-name {
+            display: flex;
+            align-items: center;
+            img {margin-right: .8rem;}
+            &.padding-left {
+                padding-left: 1rem;
+                font-size: .875rem;
+                @media screen and (max-width: $mobile) {
+                    padding-left: 2rem;
+                    &+.detail-data {
+                        padding-left: 2rem;
+                    }
+                }
+            }
+        }
+        .detail-data {
+            font-weight: 700;
+            @media screen and (max-width: $mobile) {
+                margin-left: 2rem;
+                margin-top: -10px;
+            }
+        }
+    }
+}
+.section-about-team {
+    .grid {grid-gap: 4rem; margin-top: 4rem; align-items: stretch;}
+    .bordered {padding: 0; border-radius: 12px;}
+}
+.section-knowledge-hero {
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media screen and (max-width: $tablet) {
+            justify-content: center;
+            .btn {
+                padding: 10px 30%;
+            }
+        }
+    }
+}
+.section-knowledge {
+    .grid {
+        grid-template-rows: 1fr auto;
+        break-inside: avoid;
+        align-items: start;
+        margin-top: 4rem;
+        @media screen and (max-width: $tablet) {
+            margin-top: 2rem;
+            max-width: 100%;
+        }
+    }
+    .button-wrapper {
+        margin: 4rem auto;
+    }
+}

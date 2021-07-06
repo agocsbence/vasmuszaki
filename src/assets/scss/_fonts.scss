@@ -1,0 +1,59 @@
+h1, h2 {font-family: $font-display; font-weight: 600; color: $black;}
+h3, h4, h5, h6 {font-family: $font-base; color: $black}
+h1 {
+    font-size: 48px;
+    line-height: 58px;
+    @media screen  and (max-width: $tablet){
+        font-size: 28px;
+        line-height: 33px;
+    }
+}
+h1.small {font-size: 38px;}
+h2.lead {
+    @media screen and (max-width: $mobile) {
+        font-size: 17px;
+    }
+    span {color: $green; font-size: 1.5rem;}
+}
+.h3-bigger { margin-bottom: 10px; font-size: 27px; line-height: 31px; font-weight: 900;}
+li, p, input, textarea {
+    font-size: $font-size;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: $font-base;
+    color: $gray;
+}
+.subtitle {
+    margin: 0 auto;
+    max-width: 35rem;
+}
+p { margin-bottom: 15px; }
+small { font-size: 50%; }
+.small, h1, h2, h3 { margin-bottom: 20px; }
+strong {font-weight: 500;}
+marquee {
+    img {
+        height: $font-size;
+        width: auto;
+    }
+}
+.font-400 {
+    font-family: $font-base;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-500 {
+    font-family: $font-base;
+    font-weight: 500;
+    font-style: normal;
+}
+.font-600 {
+    font-family: $font-display;
+    font-weight: 600;
+    font-style: normal;
+}
+.font-700 {
+    font-family: $font-base;
+    font-weight: 700;
+    font-style: normal;
+}

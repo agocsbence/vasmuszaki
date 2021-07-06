@@ -1,0 +1,39 @@
+.icon-block {
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-areas:
+        "icon title"
+        "icon text"
+        ". button";
+    @media screen and (max-width: $tablet) {
+        grid-template-columns: 60px 1fr 1fr 1fr;
+        grid-template-areas:
+            "icon title title title"
+            "text text text text"
+            "button button button button";
+    }
+    .icon {
+        grid-area: icon;
+        margin-right: 1.5rem;
+        @media screen and (max-width: $tablet) {
+            img {width: 50px;}
+        }
+    }
+    .title {
+        grid-area: title;
+        font-weight: 500;
+        @media screen and (max-width: $tablet) {
+            font-size: 20px;
+        }
+    }
+    p { grid-area: text; margin: 0;}
+    .btn {
+        grid-area: button;
+        justify-self: end;
+        margin: 0;
+        padding: 0;
+        @media screen and (max-width: $tablet) {
+            margin-top: 1rem;
+        }
+    }
+}

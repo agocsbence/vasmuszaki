@@ -1,0 +1,89 @@
+header {
+    z-index:999;
+    background: $pureWhite;
+    box-shadow: 5px 10px 10px $shadow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem 3.75rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    @media screen and (max-width: $mobile) {
+        padding: 0 5%;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        a {
+            margin: 0 15px;
+            font-weight: 500;
+            color: $black;
+            &:hover,
+            &:active { color: $green; }
+        }
+    }
+}
+.hamburger.is-active:hover,
+.hamburger:hover {
+    opacity: 1;
+}
+.hamburger-box, .hamburger-inner, .hamburger-inner:before, .hamburger-inner:after {
+    width: 30px;
+}
+.hamburger {
+    padding-right: 0;
+    .hamburger-box {
+        .hamburger-inner {
+            margin-top: 2px;
+            background-color: $black;
+        }
+    }
+}
+.buttons {
+    .tech-details-popup {
+        position: relative;
+        cursor: pointer;
+        @media screen and (min-width: $tablet) {
+            position: absolute;
+        }
+    }
+}
+.mobile-navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 3.75rem;
+    left: 0;
+    transform: translateY(-100%);
+    width: 100%;
+    z-index: 998;
+    transition: all .8s ease;
+    background: $pureWhite;
+    padding: 5%;
+    align-items: center;
+    border-radius: 0 0 12px 12px;
+    border-top: 1px solid $border-color;
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
+    &.is-active {
+        transform: translateY(0);
+    }
+    a {
+        margin: 10px 0;
+        font-weight: 500;
+        color: $black;
+        &:hover,
+        &:active { color: $green; }
+    }
+    .buttons {
+        .btn-text {
+            font-size: 16px;
+        }
+    }
+}

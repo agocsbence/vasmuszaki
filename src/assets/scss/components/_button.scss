@@ -1,0 +1,58 @@
+.btn {
+    @include skew(20, 0);
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 29px;
+    margin: 10px;
+    @media screen and (max-width: $mobile) {
+        display: block;
+    }
+    .btn-text {
+        @include skew(-20, 0);
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media screen and (max-width: $mobile) {
+            font-size: 17px;
+        }
+        &.img-right img {margin-left: 1rem;}
+        &.img-left img {margin-right: 1rem;}
+        img {max-height: 1.2rem;}
+    }
+    &.btn-transparent {
+        box-shadow: none;
+        background: transparent;
+        .btn-text {color: $gray;}
+    }
+    &.btn-green {background: $green; box-shadow: 5px 10px 10px $green-shadow;}
+    &.btn-blue {background: $blue; box-shadow: 5px 10px 10px $green-shadow;}
+    &.btn-gradient {background: $gradient-green; box-shadow: 5px 10px 10px $green-shadow;}
+    &.btn-plain {
+        .btn-text {color: $green;}
+    }
+    &.btn-submit {
+        // @include skew(-20, 0);
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &.btn-download {
+        transform: none;
+        background: $pureWhite;
+        border: 1px solid $border-color;
+        border-radius: 6px;
+        padding: 18px;
+        box-shadow: 5px 10px 20px $shadow;
+        width: calc(100% - 20px);
+        .btn-text {
+            color: $black;
+            font-weight: 500;
+            transform: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

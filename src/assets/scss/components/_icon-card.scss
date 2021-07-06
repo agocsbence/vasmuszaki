@@ -1,0 +1,15 @@
+.icon-card {
+    background: $pureWhite;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 5px 10px 20px $shadow;
+    .card-title {
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: $mobile) {
+            font-size: 20px;
+        }
+    }
+}

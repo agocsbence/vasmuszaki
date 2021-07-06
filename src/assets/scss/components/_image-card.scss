@@ -1,0 +1,32 @@
+.image-card {
+    .card-image {
+        position: relative;
+        .member {width: 100%;}
+        .logo {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            @media screen and (max-width: $tablet) {
+                top: 1rem;
+                right: 1rem;    
+                max-width: 2rem;
+            }
+        }
+    }
+    .card-content {
+        padding: 30px;
+        .title {
+            font-size: 28px;
+            font-weight: 600;
+            @media screen and (max-width: $tablet) {
+                font-size: 20px;
+            }
+            span {
+                float: right;
+                background: $gradient-green;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}

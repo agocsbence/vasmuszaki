@@ -1,0 +1,36 @@
+.single-page {
+    p {color: $black !important;}
+    img {
+        border-radius: 6px;
+    }
+    .single-page-header {
+        img {
+            width: 100%;
+            height: auto;
+        }
+        h1 {
+            margin-top: 2rem;
+            span {
+                color: $green;
+            }
+        }
+    }
+    .single-page-content {
+        margin: 7rem 0;
+    }
+}
+.wp-block-media-text {margin: 3rem 0;}
+.wp-block-media-text .wp-block-media-text__content {
+    @media screen  and (max-width: $tablet) {
+        padding: 0 !important;
+    }
+}
+.has-large-font-size {
+    font-family: $font-display;
+    font-size: 48px !important;
+    line-height: 58px !important;
+    @media screen  and (max-width: $tablet){
+        font-size: 28px !important;
+        line-height: 33px !important;
+    }
+}

@@ -1,0 +1,172 @@
+//variables
+$black:                       #1b1b1b;
+$white:                       #f9fbfc;
+$pureWhite:                   #fff;
+$blue:                        #309bfc;
+$green:                       #1ea554;
+$gradient-green:                linear-gradient(236.77deg, #86DB71 19.79%, #49B655 80.21%);
+$gray:                        #314256;
+$second-gray:                 #a6b8ce;
+$border-color:                #e5eef5;
+$shadow:                      #0b223805;
+$green-shadow:                #1ea55415;
+
+$font-base:                     'Poppins', sans-serif;
+$font-display:                  'Barlow', sans-serif;
+$font-size:                     17px;
+$font-size-mobile:              14px;
+
+$mobile:                        767px;
+$tablet:                        991px;
+$desktop:                       1440px;
+$desktop-large:                 2200px;
+
+//mixins
+@mixin transform($transforms) {
+	-webkit-transform: $transforms;
+	-moz-transform: $transforms;
+	-ms-transform: $transforms;
+	transform: $transforms;
+}
+@mixin rotate ($deg) { 
+	@include transform(rotate(#{$deg}deg));
+}
+@mixin scale($scale) {
+	@include transform(scale($scale));
+}
+@mixin translate ($x, $y) {
+	@include transform(translate($x, $y));
+}
+@mixin skew ($x, $y) {
+	@include transform(skew(#{$x}deg, #{$y}deg));
+}
+@mixin transform-origin ($origin) {
+    	-webkit-transform-origin: $origin;
+    	-moz-transform-origin: $origin;
+	-ms-transform-origin: $origin;
+	transform-origin: $origin;
+}
+
+//import basics
+// @import 'reset';
+// @import 'layout';
+// @import 'fonts';
+//import pages and components
+// @import 'components/header';
+// @import 'components/footer';
+// @import 'components/button';
+// @import 'components/icon-block';
+// @import 'components/card';
+// @import 'components/icon-card';
+// @import 'components/image-card';
+// @import 'components/accordion';
+// @import 'components/form';
+// @import 'sections';
+// @import 'pages/single';
+
+//style
+//tags
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+::-moz-selection { background: $green; color: $white; }
+::selection { background: $green; color: $white; }
+html{ scroll-behavior: smooth; background: $green; }
+body {
+    background-color: $pureWhite;
+    font-family: $font-base;
+	font-size: $font-size;
+    color: $gray;
+    line-height: 1.5;
+    max-width: 100vw;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+    @media screen and (max-width: $tablet) {
+        font-size: $font-size-mobile;
+        overflow-y: scroll;
+    }
+    &.lock-scroll {
+        overflow: hidden;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all .3s ease;
+    &:hover {
+        color: inherit;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+    &.parallax {
+        width: 100%;
+    }
+}
+
+//classes
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    @media screen and (max-width: $tablet) {
+        max-width: 90%;
+    }
+}
+.container-fluid {
+    max-width: 100vw;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.v-margin-1 {margin: 0 2rem;}
+.margin-bottom-0 { margin-bottom: 0; }
+
+.bg--white { background-color: $white; color: $black; }
+.bg--pureWhite { background-color: $pureWhite; color: $black; }
+.bg--green { background-color: $green; color: $white; }
+.bg--black { background-color: $black; color: $white; }
+.bg--blue { background-color: $blue; color: $white; }
+
+.text-green {color: $green;}
+
+.mobile-only {
+    display: none !important;
+    @media screen and (max-width: $tablet) {
+        display: block !important;
+    }
+}
+.desktop-only {
+    display: block !important;
+    @media screen and (max-width: $tablet) {
+        display: none !important;
+    }
+}
+
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+.text-center {text-align: center;}
+
+.hide {display: none;}
+.show {display: block;}
+
+.bordered {
+    background: $pureWhite;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 5px 10px 20px $shadow;
+}
