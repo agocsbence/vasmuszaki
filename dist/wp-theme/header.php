@@ -23,7 +23,7 @@
 
 <body <?php body_class(); ?>>
 	<?php 
-	$akcio = get_field('akcio', 503);
+	$akcio = get_field('akcio', 76);
 	$kapcsolo = $akcio['kapcsolo'];
 	
 	if ($kapcsolo): ?>
@@ -46,16 +46,16 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mb-2 px-lg-5 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo get_permalink(20); ?>">Termékek</a>
+							<a class="nav-link" href="<?php echo get_permalink(69); ?>">Termékek</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo get_permalink(24); ?>">Rólunk</a>
+							<a class="nav-link" href="<?php echo get_permalink(72); ?>">Rólunk</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo get_category_link(4); ?>">Márkák</a>
+							<a class="nav-link" href="<?php echo get_category_link(5); ?>">Márkák</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo get_permalink(26); ?>">Kapcsolat</a>
+							<a class="nav-link" href="<?php echo get_permalink(74); ?>">Kapcsolat</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#"><span class="badge bg-warning text-dark">Új üzletünk</span></a>
