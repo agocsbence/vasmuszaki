@@ -1,5 +1,5 @@
 </main>
-	<footer class="bg-white mt-5">
+	<footer class="bg-dark mt-5">
         <div class="container">
             <div class="row p-3">
                 <div class="col-sm-12 col-lg-4">
