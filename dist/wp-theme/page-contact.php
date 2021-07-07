@@ -25,10 +25,10 @@ get_header();
                 <div class="col-12 col-lg-4">
                     <h3>Szigetszentmiklós</h3>
                     <img src="<?php the_sub_field('fenykep'); ?>" alt="Sziget Szerelvény - Szigetszentmiklós">
-                    <p class="mt-3"><i class="text-danger bi bi-geo-alt"></i> <a href="https://www.google.com/maps/dir//Szigetszentmikl%C3%B3s,+Gy%C3%A1ri+%C3%BAt+17,+2310/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4741ef60ee3149cb:0x386d55181f926236?sa=X&ved=2ahUKEwjCjt_HhtjwAhULLBoKHYEKCF0QwwUwAHoECAcQAw" target="blank"><?php the_sub_field('cim') ?></a></p>
-                    <p><i class="text-success bi bi-telephone"></i> <a href="tel:<?php the_sub_field('telefon_1') ?>"><?php the_sub_field('telefon_1') ?></a></p>
-                    <p><i class="text-success bi bi-telephone"></i> <a href="tel:<?php the_sub_field('telefon_2') ?>"><?php the_sub_field('telefon_2') ?></a></p>
-                    <p><i class="text-info bi bi-envelope"></i> <a href="mailto:<?php the_sub_field('email') ?>"><?php the_sub_field('email') ?></a></p>
+                    <p class="mt-3"><i class="text-yellow bi bi-geo-alt"></i> <a href="https://www.google.com/maps/dir//Szigetszentmikl%C3%B3s,+Gy%C3%A1ri+%C3%BAt+17,+2310/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4741ef60ee3149cb:0x386d55181f926236?sa=X&ved=2ahUKEwjCjt_HhtjwAhULLBoKHYEKCF0QwwUwAHoECAcQAw" target="blank"><?php the_sub_field('cim') ?></a></p>
+                    <p><i class="text-yellow bi bi-telephone"></i> <a href="tel:<?php the_sub_field('telefon_1') ?>"><?php the_sub_field('telefon_1') ?></a></p>
+                    <p><i class="text-yellow bi bi-telephone"></i> <a href="tel:<?php the_sub_field('telefon_2') ?>"><?php the_sub_field('telefon_2') ?></a></p>
+                    <p><i class="text-yellow bi bi-envelope"></i> <a href="mailto:<?php the_sub_field('email') ?>"><?php the_sub_field('email') ?></a></p>
                 </div>
                 <div class="col-12 col-lg-4">
                 <table class="table table-hover">
@@ -87,19 +87,19 @@ get_header();
         <div class="col-12 col-lg-4">
             <div class="bg-white p-3">
                 <h3>Általános</h3>
-                <i class="text-info bi bi-envelope"></i> <a href="mailto:info@szigetszerelveny.hu">info@szigetszerelveny.hu</a>
+                <i class="text-yellow bi bi-envelope"></i> <a href="mailto:info@szigetszerelveny.hu">info@szigetszerelveny.hu</a>
             </div>
         </div>
         <div class="col-12 col-lg-4">
             <div class="bg-white p-3">
                 <h3>Ajánlatkérés</h3>
-                <i class="text-info bi bi-envelope"></i> <a href="mailto:bolt@szigetszerelveny.hu">bolt@szigetszerelveny.hu</a>
+                <i class="text-yellow bi bi-envelope"></i> <a href="mailto:bolt@szigetszerelveny.hu">bolt@szigetszerelveny.hu</a>
             </div>
         </div>
         <div class="col-12 col-lg-4">
             <div class="bg-white p-3">
                 <h3>Pénzügy</h3>
-                <i class="text-info bi bi-envelope"></i> <a href="mailto:iroda@szigetszerelveny.hu">iroda@szigetszerelveny.hu</a>
+                <i class="text-yellow bi bi-envelope"></i> <a href="mailto:iroda@szigetszerelveny.hu">iroda@szigetszerelveny.hu</a>
             </div>
         </div>
     </div>

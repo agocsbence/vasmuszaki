@@ -1,8 +1,7 @@
 //variables
-$blue:          #00769a;
-$yellow:        #ffd800;
-$red:           #d61e1e;
+$yellow:        #ffbb34;
 $grey:          #4d4d4d;
+$black:         #000;
 
 //styles
 main {
@@ -180,7 +179,7 @@ figure.zoom {
 .page-template-page-rolunk,
 .page-template-page-contact {
     main a {
-        color: $blue !important;
+        color: $black !important;
         &:hover {
             text-decoration: underline !important;
         }
@@ -194,3 +193,4 @@ figure.zoom {
 .akcio p {
     margin-bottom: 0;
 }
+.text-yellow {color: $yellow !important;}
