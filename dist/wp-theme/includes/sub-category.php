@@ -4,7 +4,7 @@
 <section class="section single container">
     <nav class="mt-5" aria-label="breadcrumb">
         <ol class="breadcrumb nolinkdecor">
-            <li class="breadcrumb-item"><a href="<?php echo get_permalink(20); ?>">Termékek</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo get_permalink(69); ?>">Termékek</a></li>
             <li class="breadcrumb-item"><a href="<?php echo esc_url( get_category_link( $master_category->term_id )) ?>"><?php echo $master_category->name ?></a></li>
             <li class="breadcrumb-item"><?php echo $parent_category->name ?></li>
             <li class="breadcrumb-item active" aria-current="page"><?php echo $start_category->name ?></li>
