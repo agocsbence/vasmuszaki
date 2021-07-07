@@ -101,7 +101,7 @@ add_filter( 'body_class', function( $classes ) {
 
 //ADD API KEY FOR GOOGLE MAPS
 function my_acf_google_map_api( $api ){
-	$api['key'] = 'AIzaSyAxY0Oe1gxAFqwa24I5gKBLuKW6vT8jGLI';
+	$api['key'] = 'AIzaSyDaRqwFUgg-qLpglcW7TRTRlf-opIWcKk0';
 	return $api;
 }
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
