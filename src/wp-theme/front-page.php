@@ -15,6 +15,7 @@ get_header();
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
 		</div>
 		<!-- <div class="carousel-inner">
 
@@ -53,22 +54,28 @@ get_header();
 		</div> -->
 		<div class="carousel-inner">
 			<!-- <img src="<?php // bloginfo('template_url') ?>/assets/img/logo.png" alt="Sziget Szerelvény" class="carousel-logo"> -->
-			<a href="<?php echo get_home_url(); ?>/termekek/kazanok-es-keszulekek" class="carousel-item active" data-bs-interval="5000" style="background-image: url('<?php the_field('slider_kep_1', 503); ?>');">
-				<img src="<?php bloginfo('template_url') ?>/assets/img/fade.png" class="d-block w-100" alt="Kazánok és készülékek">
+			<a href="<?php echo get_home_url(); ?>/termekek/kotoelemek" class="carousel-item active" data-bs-interval="5000" style="background-image: url('<?php the_field('slider_kep_1', 76); ?>');">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/fade.png" class="d-block w-100" alt="Kötőelemek">
 				<div class="carousel-caption d-none d-md-block">
-					<h1>Kazánok és készülékek</h1>
+					<h1>Kötőelemek</h1>
 				</div>
 			</a>
-			<a href="<?php echo get_home_url(); ?>/termekek/szaniter-furdoszoba" class="carousel-item" data-bs-interval="5000" style="background-image: url('<?php the_field('slider_kep_2', 503); ?>');">
-				<img src="<?php bloginfo('template_url') ?>/assets/img/fade.png" class="d-block w-100" alt="Szaniter-fürdőszoba">
+			<a href="<?php echo get_home_url(); ?>/termekek/munkavedelem-es-felszereles" class="carousel-item" data-bs-interval="5000" style="background-image: url('<?php the_field('slider_kep_2', 76); ?>');">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/fade.png" class="d-block w-100" alt="Munkavédelem és felszerelés">
 				<div class="carousel-caption d-none d-md-block">
-					<h1>Szaniter-fürdőszoba</h1>
+					<h1>Munkavédelem és felszerelés</h1>
 				</div>
 			</a>
-			<a href="<?php echo get_home_url(); ?>/termekek/viz-gaz-futes" class="carousel-item" data-bs-interval="5000" style="background-image: url('<?php the_field('slider_kep_3', 503); ?>');">
-				<img src="<?php bloginfo('template_url') ?>/assets/img/fade.png" class="d-block w-100" alt="Víz-gáz-fűtés">
+			<a href="<?php echo get_home_url(); ?>/termekek/otthon-es-kert" class="carousel-item" data-bs-interval="5000" style="background-image: url('<?php the_field('slider_kep_3', 76); ?>');">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/fade.png" class="d-block w-100" alt="Otthon és kert">
 				<div class="carousel-caption d-none d-md-block">
-					<h1>Víz-gáz-fűtés</h1>
+					<h1>Otthon és kert</h1>
+				</div>
+			</a>
+			<a href="<?php echo get_home_url(); ?>/termekek/szerszamok" class="carousel-item" data-bs-interval="5000" style="background-image: url('<?php the_field('slider_kep_4', 76); ?>');">
+				<img src="<?php bloginfo('template_url') ?>/assets/img/fade.png" class="d-block w-100" alt="Szerszámok">
+				<div class="carousel-caption d-none d-md-block">
+					<h1>Szerszámok</h1>
 				</div>
 			</a>
 		</div>
