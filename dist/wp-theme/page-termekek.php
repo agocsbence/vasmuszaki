@@ -29,7 +29,7 @@ get_header();
                 $category_link = get_category_link( $categories[$i]->{'term_id'} );
                 $image = get_field('kep', $categories[$i]->taxonomy . '_' . $categories[$i]->term_id ); ?>
 
-                <div class="col-sm-12 col-lg-4">
+                <div class="col-sm-12 col-lg-3">
                     <a href="<?php echo esc_url( $category_link ); ?>" class="card">
                         <img src="<?php echo $image?>" class="card-img-top" alt="<?php echo $categories[$i]->{'name'} ?>">
                         <div class="card-body">
