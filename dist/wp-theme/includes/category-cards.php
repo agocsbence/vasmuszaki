@@ -1,4 +1,7 @@
 <section class="section products nolinkdecor container">
+	
+	<?php include get_theme_file_path( '/includes/alert.php' ); ?>
+
 	<nav class="mt-5" aria-label="breadcrumb">
 		<ol class="breadcrumb nolinkdecor">
 			<li class="breadcrumb-item"><a href="<?php echo get_permalink(69); ?>">Termékek</a></li>
