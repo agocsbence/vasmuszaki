@@ -120,30 +120,4 @@ get_header();
 	?>
 </section>
 
-<section class="section nolinkdecor products container" id="home-popular">
-
-<h1 class="mt-5">Legnépszerűbb termékeink</h1>
-    <div class="row mt-4">
-
-	<?php 
-		$popularpost = new WP_Query( array( 'posts_per_page' => 4, 'meta_key' => 'wpb_post_views_count', 'orderby' => 'meta_value_num', 'order' => 'DESC'  ) );
-		while ( $popularpost->have_posts() ) : $popularpost->the_post(); ?>
-
-		<div class="col-sm-12 col-lg-3">
-			<div class="card">
-				<a href="<?php echo get_permalink(); ?>">
-					<img src="<?php echo the_post_thumbnail_url(); ?>" class="card-img-top" alt="<?php the_title(); ?>">
-					<div class="card-body">
-						<h5 class="card-title"><?php the_title(); ?></h5>
-					</div>
-				</a>
-			</div>
-		</div>
-
-	
-	<?php endwhile; ?>
-
-	</div>
-</section>
-
 <?php get_footer(); ?>

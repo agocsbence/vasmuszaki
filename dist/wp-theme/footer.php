@@ -6,12 +6,12 @@
                     <img src="<?php bloginfo('template_url') ?>/assets/img/logo-footer.png" alt="Sziget Szerelvény Kft." style="width: 130px;">
                 </div>
                 <div class="col-sm-12 col-lg-4 gy-4 gy-sm-0">
-                    <p><i class="bi bi-telephone"></i> Szigetszentmiklós: <a href="tel:+36301234567">+36 30 123 4567</a></p>
+                    <p><i class="bi bi-telephone"></i> Szigetszentmiklós: <a href="tel:+36 70 938 9703">+36 70 938 9703</a></p>
 					<p><i class="bi bi-file-earmark-text"></i> <a href="<?php echo get_permalink(3); ?>">Adatkezelés</a></p>
                 </div>
                 <div class="col-sm-12 col-lg-4 gy-4 gy-sm-0">
                     <p><i class="bi bi-geo-alt"></i> 2310 Szigetszentmiklós Gyári út 17.</p>
-                    <p><i class="bi bi-envelope"></i> <a href="mailto:info@szigetszerelveny.hu">info@szigetszerelveny.hu</a></p>
+                    <p><i class="bi bi-envelope"></i> <a href="mailto:vasmuszaki@szigetszerelveny.hu">vasmuszaki@szigetszerelveny.hu</a></p>
                 </div>
             </div>
         </div>
