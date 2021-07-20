@@ -40,6 +40,9 @@ get_header();
         <?php } ?>
 
     </div>
+
+    <?php include get_theme_file_path( '/includes/alert.php' ); ?>
+    
 </section>
 
 <?php get_footer(); ?>
