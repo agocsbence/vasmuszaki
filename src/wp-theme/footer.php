@@ -6,7 +6,7 @@
                     <img src="<?php bloginfo('template_url') ?>/assets/img/logo-footer.png" alt="Sziget Szerelvény Kft." style="width: 130px;">
                 </div>
                 <div class="col-sm-12 col-lg-4 gy-4 gy-sm-0">
-                    <p><i class="bi bi-telephone"></i> Szigetszentmiklós: <a href="tel:+36 70 938 9703">+36 70 938 9703</a></p>
+                    <p><i class="bi bi-telephone"></i> <a href="tel:+36 70 938 9703">+36 70 938 9703</a></p>
 					<p><i class="bi bi-file-earmark-text"></i> <a href="<?php echo get_permalink(3); ?>">Adatkezelés</a></p>
                 </div>
                 <div class="col-sm-12 col-lg-4 gy-4 gy-sm-0">
