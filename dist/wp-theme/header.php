@@ -58,13 +58,13 @@
 							<a class="nav-link" href="<?php echo get_permalink(74); ?>">Kapcsolat</a>
 						</li>
 					</ul>
-					<form role="search" method="get" id="searchform" class="d-flex searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<!-- <form role="search" method="get" id="searchform" class="d-flex searchform" action="<?php // echo esc_url( home_url( '/' ) ); ?>">
 						<div class="input-group ">
-							<!-- <label class="screen-reader-text" for="s"><?php _x( 'Search for:', 'label' ); ?></label> -->
-							<input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Keresés" value="<?php echo get_search_query(); ?>" name="s" id="s">
+							<label class="screen-reader-text" for="s"><?php // _x( 'Search for:', 'label' ); ?></label>
+							<input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Keresés" value="<?php // echo get_search_query(); ?>" name="s" id="s">
 							<button class="btn btn-outline-light" type="submit" id="searchsubmit" value="Keresés">Keresés</button>
 						</div>
-					</form>
+					</form> -->
 				</div>
 			</div>
 		</nav>
