@@ -34,7 +34,7 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
+				<a class="navbar-brand d-flex align-items-center" href="<?php echo get_home_url(); ?>">
 					<img src="<?php bloginfo('template_url') ?>/assets/img/logo.png" width="50" height="50" alt="" class="d-inline-block align-top">
 					 Sziget szerelvény
 				</a>
