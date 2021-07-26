@@ -37,8 +37,7 @@
 							foreach($sub_categories as $sub_category) { ?>
 								<?php // var_dump($sub_category); ?>
 								<li class="list-group-item">
-									<!-- <a href="<?php // echo esc_url( get_category_link( $sub_category->term_id )) ?>"><?php // echo $sub_category->name ?></a> -->
-									<?php echo $sub_category->name ?>
+									<a href="<?php // echo esc_url( get_category_link( $sub_category->term_id )) ?>"><?php echo $sub_category->name ?></a>
 								</li>
 							<?php }
 						?>
