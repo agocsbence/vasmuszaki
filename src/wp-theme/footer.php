@@ -12,6 +12,7 @@
                 <div class="col-sm-12 col-lg-4 gy-4 gy-sm-0">
                     <p><i class="bi bi-geo-alt"></i> 2310 Szigetszentmiklós Gyári út 17.</p>
                     <p><i class="bi bi-envelope"></i> <a href="mailto:vasmuszaki@szigetszerelveny.hu">vasmuszaki@szigetszerelveny.hu</a></p>
+                    <p><i class="bi bi-facebook"></i> <a href="https://www.facebook.com/vasmuszakisziget" target="blank">Facebook</a></p>
                 </div>
             </div>
         </div>

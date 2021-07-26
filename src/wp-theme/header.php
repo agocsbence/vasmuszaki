@@ -35,8 +35,8 @@
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
-					<!-- Vas-műszaki bolt -->
 					<img src="<?php bloginfo('template_url') ?>/assets/img/logo.png" width="50" height="50" alt="" class="d-inline-block align-top">
+					 Sziget szerelvény
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
