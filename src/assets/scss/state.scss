@@ -49,7 +49,7 @@ img {
             transform: translateY(-50%);
             transition: all .3s ease;
             position: absolute;
-            bottom: -200px;
+            bottom: -250px;
             left: 0;
             flex-wrap: wrap;
             @media screen and (max-width: 991px) {
@@ -81,7 +81,7 @@ img {
                 opacity: 1;
                 transform: translateY(0);
                 z-index: 999;
-                height: 200px;
+                height: 250px;
             }
         }
     }
